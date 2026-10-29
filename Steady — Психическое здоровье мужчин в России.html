@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Steady — Психическое здоровье мужчин в России</title>
+<style>
+:root{--bg:#0a0a0a;--card:#141414;--line:#2a2a2a;--tx:#f2f2f2;--mut:#9a9a9a;--red:#d41f26;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 Georgia,'Times New Roman',serif}
+h1,h2,h3,nav,.tag,button,.num{font-family:'Helvetica Neue',Arial,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:rgba(10,10,10,.92);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+nav b{letter-spacing:.2em;text-transform:uppercase;font-size:14px}nav b span{color:var(--red)}
+nav a{color:var(--mut);text-decoration:none;font-size:13px;margin-left:16px}nav a:hover{color:var(--tx)}
+.hero{padding:70px 0 50px;display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center}
+.tag{color:var(--red);text-transform:uppercase;letter-spacing:.15em;font-size:12px;font-weight:700}
+h1{font-size:clamp(34px,6vw,60px);line-height:1.08;margin:12px 0 18px;text-transform:uppercase}
+h1 em{color:var(--red);font-style:normal}
+.btn{display:inline-block;background:var(--red);color:#fff;padding:13px 24px;text-decoration:none;font:700 14px Arial;letter-spacing:.08em;text-transform:uppercase;border:0;cursor:pointer}
+.btn:hover{background:#f02a31}
+.ill{width:100%;height:auto;border:1px solid var(--line);background:#050505}
+section{padding:60px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(24px,4vw,36px);margin:8px 0 18px;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:24px}
+.card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--red);padding:22px}
+.card h3{margin:0 0 8px;font-size:17px;text-transform:uppercase}
+.card p{margin:0;color:var(--mut);font-size:15px}
+.num{font-size:44px;font-weight:800;color:var(--red);line-height:1}
+.bar{margin:14px 0}.bar div.l{display:flex;justify-content:space-between;gap:12px;font:14px Arial;margin-bottom:6px;color:var(--mut)}
+.bar .t{height:16px;background:#1d1d1d}.bar .f{height:100%;background:var(--red)}.bar .f.g{background:#8a8a8a}
+.note{font-size:13px;color:var(--mut);border-left:3px solid var(--red);padding-left:12px;margin-top:22px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.quote{background:var(--red);padding:90px 20px;text-align:center;border:0}
+.quote p{font:800 clamp(24px,5vw,44px)/1.25 Arial;text-transform:uppercase;margin:0 auto;max-width:860px;color:#fff}
+.help{background:#1a0506;border:1px solid var(--red);padding:20px;margin-top:24px;font-size:15px}
+.diary textarea{width:100%;min-height:90px;background:#0e0e0e;color:var(--tx);border:1px solid var(--line);padding:12px;font:15px Georgia;margin:10px 0}
+.moods{display:flex;gap:8px;flex-wrap:wrap}
+.moods button{background:#0e0e0e;color:var(--tx);border:1px solid var(--line);padding:9px 14px;cursor:pointer;font-size:13px}
+.moods button.on{background:var(--red);border-color:var(--red)}
+.entry{border-bottom:1px solid var(--line);padding:10px 0;font-size:15px}.entry small{color:var(--red);font-family:Arial}
+footer{padding:30px 0;border-top:1px solid var(--line);color:var(--mut);font-size:13px}
+@media(max-width:720px){.hero,.two{grid-template-columns:1fr}nav a{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><b>Stea<span>d</span>y</b><div><a href="#why">Почему важно</a><a href="#help">Помощь</a><a href="#suicide">Суицид</a><a href="#what">Что помогает</a><a href="#app">Дневник</a></div></div></nav>
+
+<div class="wrap">
+<header class="hero">
+<div>
+<div class="tag">Психическое здоровье мужчин · Россия</div>
+<h1>Сильный — не значит <em>молчащий.</em></h1>
+<p style="color:var(--mut)">Многих мужчин в России учат терпеть, молчать и «решать всё самому». Стабильное эмоциональное состояние — не слабость, а основа здоровья, семьи, работы и самой жизни.</p>
+<a class="btn" href="#why">Читать дальше</a>
+</div>
+<svg class="ill" viewBox="0 0 400 400" role="img" aria-label="Чёрно-белый силуэт мужчины и красное солнце">
+<rect width="400" height="400" fill="#050505"/>
+<circle cx="270" cy="150" r="70" fill="#d41f26"/>
+<path d="M0 330 L90 250 L160 310 L240 230 L320 300 L400 260 V400 H0Z" fill="#1c1c1c"/>
+<path d="M0 360 L120 300 L200 350 L300 290 L400 340 V400 H0Z" fill="#0d0d0d"/>
+<circle cx="110" cy="215" r="20" fill="#e9e9e9"/>
+<path d="M85 245 Q110 235 135 245 L142 330 H78Z" fill="#e9e9e9"/>
+</svg>
+</header>
+</div>
+
+<section id="why"><div class="wrap">
+<div class="tag">01</div><h2>Почему важна стабильность</h2>
+<div class="two">
+<div>
+<p>Эмоциональная стабильность — это способность переживать стресс, злость или горе, не теряя контроля над жизнью. Это не значит ничего не чувствовать — это значит уметь восстанавливаться.</p>
+<p>Хронический невысказанный стресс влияет на сон, сердце, отношения и работу, повышает риск депрессии, тревожных расстройств и злоупотребления алкоголем. Мужчины, которые говорят о проблемах вовремя, обычно нуждаются в куда меньшей помощи потом.</p>
+</div>
+<svg class="ill" viewBox="0 0 400 260" role="img" aria-label="Чёрно-белая иллюстрация весов">
+<rect width="400" height="260" fill="#050505"/>
+<line x1="200" y1="40" x2="200" y2="220" stroke="#e9e9e9" stroke-width="6"/>
+<line x1="80" y1="70" x2="320" y2="70" stroke="#e9e9e9" stroke-width="6"/>
+<path d="M50 150 Q80 190 110 150Z" fill="#8a8a8a"/><line x1="80" y1="70" x2="50" y2="150" stroke="#8a8a8a"/><line x1="80" y1="70" x2="110" y2="150" stroke="#8a8a8a"/>
+<path d="M290 150 Q320 190 350 150Z" fill="#d41f26"/><line x1="320" y1="70" x2="290" y2="150" stroke="#d41f26"/><line x1="320" y1="70" x2="350" y2="150" stroke="#d41f26"/>
+<rect x="150" y="220" width="100" height="14" fill="#333"/>
+</svg>
+</div>
+<div class="grid">
+<div class="card"><h3>Тело</h3><p>Сон, давление и иммунитет реагируют на длительный стресс.</p></div>
+<div class="card"><h3>Семья</h3><p>Подавленные эмоции часто выходят раздражением или отдалением дома.</p></div>
+<div class="card"><h3>Работа</h3><p>Концентрация и решения лучше, когда ум спокоен.</p></div>
+</div>
+</div></section>
+
+<section id="help"><div class="wrap">
+<div class="tag">02</div><h2>Кто обращается за помощью — а кто нет</h2>
+<p>Опросы в России стабильно показывают: к психологу или психиатру когда-либо обращалось меньшинство, а мужчины делают это заметно реже женщин. Цифры ниже приблизительные, округлены по данным опросов общественного мнения; точные значения зависят от исследования и года.</p>
+<div class="bar"><div class="l"><span>Мужчины, никогда не обращавшиеся за психологической помощью</span><span>≈ 90%</span></div><div class="t"><div class="f g" style="width:90%"></div></div></div>
+<div class="bar"><div class="l"><span>Мужчины, обращавшиеся хотя бы раз</span><span>≈ 10%</span></div><div class="t"><div class="f" style="width:10%"></div></div></div>
+<div class="bar"><div class="l"><span>Женщины, обращавшиеся хотя бы раз</span><span>≈ 18–20%</span></div><div class="t"><div class="f" style="width:19%"></div></div></div>
+<div class="grid">
+<div class="card"><div class="num">9 из 10</div><p>мужчин никогда не говорили со специалистом о своём состоянии</p></div>
+<div class="card"><div class="num">2×</div><p>женщины обращаются за помощью примерно вдвое чаще мужчин</p></div>
+</div>
+<p class="note">Частые причины: «само пройдёт», страх осуждения, стоимость, стигма и убеждение, что мужчина должен справляться сам. Проверяйте данные: ВЦИОМ, Левада-центр, Росстат, ВОЗ.</p>
+</div></section>
+
+<section id="suicide"><div class="wrap">
+<div class="tag">03</div><h2>Статистика суицидов</h2>
+<p>Мужчины составляют подавляющее большинство погибших от суицида в России. С пика 1990-х – 2000-х показатель заметно снизился, но остаётся выше среднемирового.</p>
+<div class="grid">
+<div class="card"><div class="num">≈ 4×</div><p>мужчины совершают суицид примерно в четыре раза чаще женщин</p></div>
+<div class="card"><div class="num">≈ 80%</div><p>доля мужчин среди погибших от суицида</p></div>
+<div class="card"><div class="num">≈ 10–12</div><p>случаев на 100 000 населения в последние годы; у мужчин около 20</p></div>
+</div>
+<div class="bar"><div class="l"><span>Погибшие от суицида: мужчины</span><span>≈ 80%</span></div><div class="t"><div class="f" style="width:80%"></div></div></div>
+<div class="bar"><div class="l"><span>Погибшие от суицида: женщины</span><span>≈ 20%</span></div><div class="t"><div class="f g" style="width:20%"></div></div></div>
+<p class="note">Цифры округлены и приблизительны, основаны на данных Росстата и ВОЗ и меняются по годам — сверяйтесь с последними официальными публикациями.</p>
+<div class="help"><b>Если вы или близкий вам человек в кризисе:</b> звоните 112 (единый номер экстренных служб) или в Центр экстренной психологической помощи МЧС: 8-495-989-50-50. Не нужно ждать, пока станет хуже.</div>
+</div></section>
+
+<section class="quote"><p>Неважно, что говорят все вокруг, важно — твоё состояние.</p></section>
+
+<section id="what" style="border-top:0"><div class="wrap">
+<div class="tag">04</div><h2>Что действительно помогает</h2>
+<div class="grid">
+<div class="card"><h3>Назвать вслух</h3><p>Фраза «я вымотан» или «мне тревожно» уже снижает давление.</p></div>
+<div class="card"><h3>Поговорить</h3><p>С другом, братом, коллегой — или с психологом. Специалист нужен не только в кризис.</p></div>
+<div class="card"><h3>База для тела</h3><p>Сон, движение, дневной свет, меньше алкоголя. Скучно, но работает.</p></div>
+<div class="card"><h3>Отслеживать</h3><p>Записи о настроении показывают закономерности, которых не видно в моменте.</p></div>
+</div>
+</div></section>
+
+<section id="app"><div class="wrap">
+<div class="tag">05</div><h2>Приложение: дневник эмоций</h2>
+<div class="two">
+<div>
+<p>Простая привычка: одна минута в день. Выберите настроение, напишите одну строку. Через несколько недель вы увидите, что вас выматывает, а что восстанавливает, — и у вас появится конкретика, которую можно показать специалисту.</p>
+<p style="color:var(--mut)">Ищите приложение, которое приватно (без обязательного аккаунта), быстро, позволяет оценивать настроение по шкале, добавлять теги — сон, работа, семья — и показывает недельную сводку. Попробуйте мини-демо →</p>
+</div>
+<div class="card diary">
+<h3>Запись за сегодня</h3>
+<div class="moods" id="moods"></div>
+<textarea id="txt" placeholder="Одна честная строка о сегодняшнем дне..."></textarea>
+<button class="btn" id="save">Сохранить</button>
+<div id="list" style="margin-top:16px"></div>
+</div>
+</div>
+</div></section>
+
+<footer><div class="wrap">Steady · Информационный проект, не медицинская консультация. Статистика приблизительная; проверяйте по официальным источникам. Страница не заменяет профессиональную помощь.</div></footer>
+
+<script>
+var moods=['Спокойно','Хорошо','Устал','Тревожно','Злость','Подавлен'],sel=null,entries=[];
+try{entries=JSON.parse(localStorage.getItem('diary-ru')||'[]')}catch(e){entries=[]}
+var m=document.getElementById('moods');
+moods.forEach(function(x){var b=document.createElement('button');b.textContent=x;b.onclick=function(){sel=x;[].forEach.call(m.children,function(c){c.classList.toggle('on',c===b)})};m.appendChild(b)});
+function render(){var l=document.getElementById('list');l.innerHTML='';entries.slice(-5).reverse().forEach(function(e){var d=document.createElement('div');d.className='entry';var s=document.createElement('small');s.textContent=e.d+' · '+e.m;d.appendChild(s);d.appendChild(document.createElement('br'));d.appendChild(document.createTextNode(e.t));l.appendChild(d)})}
+document.getElementById('save').onclick=function(){var t=document.getElementById('txt').value.trim();if(!sel&&!t)return;entries.push({d:new Date().toLocaleDateString('ru-RU'),m:sel||'—',t:t});try{localStorage.setItem('diary-ru',JSON.stringify(entries))}catch(e){}document.getElementById('txt').value='';render()};
+render();
+</script>
+</body>
+</html>
